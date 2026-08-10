@@ -1,0 +1,280 @@
+<title>Feature Correlations — PL 2025-26 Starting XI</title>
+<style>
+  .viz-root{
+    color-scheme:light;
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+    --pos:#2a78d6; --neg:#e34948; --neutral:#f0efec;
+    --chip:#f0efec;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:where(:not([data-theme="light"])) .viz-root{
+      color-scheme:dark;
+      --surface-1:#1a1a19; --page:#0d0d0d;
+      --text-primary:#fff; --text-secondary:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+      --pos:#3987e5; --neg:#e66767; --neutral:#383835;
+      --chip:#242423;
+    }
+  }
+  :root[data-theme="dark"] .viz-root{
+    color-scheme:dark;
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --text-primary:#fff; --text-secondary:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --pos:#3987e5; --neg:#e66767; --neutral:#383835;
+    --chip:#242423;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page,#f9f9f7)}
+  .viz-root{
+    font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;
+    background:var(--page); color:var(--text-primary);
+    padding:32px 20px 72px; max-width:1180px; margin:0 auto;
+  }
+  h1{font-size:26px;margin:0 0 6px;letter-spacing:-.01em}
+  h2{font-size:18px;margin:0 0 4px;letter-spacing:-.01em}
+  .sub{color:var(--text-secondary);font-size:14px;margin:0 0 28px}
+  .note{color:var(--text-secondary);font-size:13.5px;margin:0 0 16px;max-width:76ch}
+  section{background:var(--surface-1);border:1px solid var(--ring);border-radius:12px;
+          padding:22px 22px 26px;margin-bottom:22px}
+  .kpi{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+  .tile{background:var(--surface-1);border:1px solid var(--ring);border-radius:10px;
+        padding:12px 16px;min-width:126px;flex:1}
+  .tile .v{font-size:24px;font-weight:600;letter-spacing:-.02em}
+  .tile .k{font-size:12px;color:var(--text-secondary);margin-top:2px}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:18px}
+  button{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;cursor:pointer;
+         border:1px solid var(--ring);background:var(--surface-1);color:var(--text-secondary)}
+  button[aria-pressed="true"]{background:var(--chip);color:var(--text-primary);font-weight:600}
+  .scroll{overflow-x:auto;overflow-y:hidden}
+  table{border-collapse:collapse;font-size:13px;width:100%}
+  th,td{text-align:left;padding:5px 10px;border-bottom:1px solid var(--grid);white-space:nowrap}
+  th{color:var(--text-secondary);font-weight:600;position:sticky;top:0;background:var(--surface-1)}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .tv{display:none;max-height:460px;overflow:auto;margin-top:14px}
+  .tv.on{display:block}
+  .legend{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text-secondary);margin:2px 0 16px}
+  .ramp{height:10px;width:230px;border-radius:3px;border:1px solid var(--ring)}
+  #tip{position:fixed;pointer-events:none;opacity:0;transition:opacity .1s;z-index:50;
+       background:var(--surface-1);border:1px solid var(--ring);border-radius:8px;
+       padding:8px 11px;font-size:12.5px;box-shadow:0 6px 22px rgba(0,0,0,.18);max-width:280px}
+  #tip b{font-weight:600}
+  .swatch{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:5px}
+  text{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+</style>
+
+<div class="viz-root">
+  <h1>Feature correlations — Premier League 2025-26 starting XI</h1>
+  <p class="sub">Tabular dataset, gameweeks 2-38. Every feature computed strictly from information available before kickoff.</p>
+
+  <div class="kpi" id="kpi"></div>
+
+  <section>
+    <h2>Correlation with <code>is_starter</code></h2>
+    <p class="note">Point-biserial correlation of each feature with the target. Blue is positive (higher value &rarr; more likely to start), red negative. Bars are sorted by absolute strength, so the useful features sit at the top and the dead ones at the bottom.</p>
+    <div class="row">
+      <button id="b-top" aria-pressed="true">Top 30</button>
+      <button id="b-all" aria-pressed="false">All 84</button>
+      <button id="b-tt" aria-pressed="false">Table view</button>
+    </div>
+    <div class="scroll"><svg id="bars" role="img" aria-label="Feature correlation with is_starter"></svg></div>
+    <div class="tv" id="tv-target"></div>
+  </section>
+
+  <section>
+    <h2>Feature &times; feature correlation matrix</h2>
+    <p class="note">All 84 features against each other, ordered by hierarchical clustering so that groups of near-duplicate features appear as solid blocks along the diagonal. Those blocks are the redundancy that distorted v1's ablation &mdash; keep one feature per block. Hover any cell for the exact value.</p>
+    <div class="row" id="blockfilter"></div>
+    <div class="legend">
+      <span>&minus;1.0</span><div class="ramp" id="ramp"></div><span>+1.0</span>
+      <span style="margin-left:8px">Pearson r</span>
+      <button id="b-mt" aria-pressed="false" style="margin-left:auto">Table view</button>
+    </div>
+    <div class="scroll"><svg id="heat" role="img" aria-label="Feature by feature correlation matrix"></svg></div>
+    <div class="tv" id="tv-matrix"></div>
+  </section>
+
+  <section>
+    <h2>Redundant pairs &nbsp;<span style="font-weight:400;color:var(--text-secondary);font-size:15px">|r| &ge; 0.90</span></h2>
+    <p class="note">Feature pairs carrying essentially the same information. Three of them are exact duplicates at r = 1.000. Using both members of a pair in one model arm and only one in another is precisely what produced v1's inflated ablation delta.</p>
+    <div class="scroll" style="max-height:420px;overflow-y:auto"><table id="pairs"></table></div>
+  </section>
+</div>
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+const D = __PAYLOAD__;
+const $ = s => document.querySelector(s);
+const cs = getComputedStyle($('.viz-root'));
+const tok = n => cs.getPropertyValue(n).trim();
+
+/* diverging scale: pole -> neutral gray midpoint -> pole.
+   Gray at zero so "no relationship" reads as nothing. */
+const hex2rgb = h => [1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+function colr(r){
+  const neu = hex2rgb(tok('--neutral'));
+  const pole = hex2rgb(r>=0 ? tok('--pos') : tok('--neg'));
+  const t = Math.min(Math.abs(r),1);
+  return `rgb(${neu.map((c,i)=>Math.round(c+(pole[i]-c)*t)).join(',')})`;
+}
+const SVGNS='http://www.w3.org/2000/svg';
+const el=(n,a={})=>{const e=document.createElementNS(SVGNS,n);for(const k in a)e.setAttribute(k,a[k]);return e;};
+
+/* ---- KPI tiles ---- */
+$('#kpi').innerHTML = [
+  [D.n_rows.toLocaleString(),'player-match rows'],
+  [D.n_team_matches,'team-matches'],
+  [(D.base_rate*100).toFixed(1)+'%','starter base rate'],
+  [D.features.length,'features'],
+  [D.pairs.length,'pairs |r| &ge; 0.90'],
+].map(([v,k])=>`<div class="tile"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+
+/* ---- tooltip ---- */
+const tip=$('#tip');
+function showTip(e,html){tip.innerHTML=html;tip.style.opacity=1;
+  const p=12,w=tip.offsetWidth,h=tip.offsetHeight;
+  let x=e.clientX+p,y=e.clientY+p;
+  if(x+w>innerWidth-8)x=e.clientX-w-p;
+  if(y+h>innerHeight-8)y=e.clientY-h-p;
+  tip.style.left=x+'px';tip.style.top=y+'px';}
+const hideTip=()=>tip.style.opacity=0;
+
+/* ---- ranked bar chart ---- */
+let barMode='top';
+function drawBars(){
+  const data = barMode==='top' ? D.target.slice(0,30) : D.target;
+  const svg=$('#bars'); svg.innerHTML='';
+  const rowH=barMode==='top'?22:15, labW=210, padR=54, padT=30;
+  const W=Math.max(760,labW+padR+460), plotW=W-labW-padR;
+  const H=padT+data.length*rowH+10;
+  svg.setAttribute('width',W); svg.setAttribute('height',H);
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  /* Scale to the data, not to ±1: every correlation here sits inside ±0.7, so a
+     fixed ±1 domain would throw away half the width and flatten the ranking. */
+  const peak=Math.max(...D.target.map(d=>Math.abs(d.r)));
+  const max=Math.ceil(peak*10)/10, x=v=>labW+plotW/2+(v/max)*(plotW/2);
+  const step=max<=0.4?0.1:0.2, ticks=[];
+  for(let t=-max;t<=max+1e-9;t+=step) ticks.push(+t.toFixed(2));
+
+  /* hairline grid + axis ticks */
+  ticks.forEach(t=>{
+    svg.appendChild(el('line',{x1:x(t),x2:x(t),y1:padT-8,y2:H-8,
+      stroke:t===0?tok('--baseline'):tok('--grid'),'stroke-width':1}));
+    const tx=el('text',{x:x(t),y:padT-14,'text-anchor':'middle','font-size':11,fill:tok('--muted')});
+    tx.textContent=(t>0?'+':'')+t.toFixed(1); svg.appendChild(tx);
+  });
+
+  data.forEach((d,i)=>{
+    const y=padT+i*rowH, bh=Math.max(6,rowH-5);
+    const x0=x(0), x1=x(d.r), left=Math.min(x0,x1), w=Math.max(1.5,Math.abs(x1-x0));
+    const rect=el('rect',{x:left,y:y,width:w,height:bh,rx:3,fill:colr(d.r)});
+    svg.appendChild(rect);
+    const lab=el('text',{x:labW-8,y:y+bh/2+4,'text-anchor':'end',
+      'font-size':barMode==='top'?12:10,fill:tok('--text-secondary')});
+    lab.textContent=d.f; svg.appendChild(lab);
+    /* label selectively: only the features that actually matter */
+    if(Math.abs(d.r)>=0.40){
+      const v=el('text',{x:d.r>=0?x1+6:x1-6,y:y+bh/2+4,
+        'text-anchor':d.r>=0?'start':'end','font-size':11,
+        fill:tok('--text-secondary'),'font-variant-numeric':'tabular-nums'});
+      v.textContent=(d.r>=0?'+':'')+d.r.toFixed(3); svg.appendChild(v);
+    }
+    /* generous hit area, not the thin bar */
+    const hit=el('rect',{x:labW,y:y-2,width:plotW,height:rowH,fill:'transparent'});
+    hit.addEventListener('mousemove',e=>showTip(e,
+      `<b>${d.f}</b><br>block: ${d.b}<br>r = ${d.r>=0?'+':''}${d.r.toFixed(4)}<br>p = ${d.p.toExponential(2)}<br>null: ${d.null}%`));
+    hit.addEventListener('mouseleave',hideTip);
+    svg.appendChild(hit);
+  });
+}
+
+/* ---- heatmap ---- */
+let active=new Set(D.blocks);
+function drawHeat(){
+  const idx=D.features.map((f,i)=>i).filter(i=>active.has(D.blocks[i]));
+  const svg=$('#heat'); svg.innerHTML='';
+  const n=idx.length, cell=n>60?12:(n>30?18:26), labW=190, labT=190;
+  const W=labW+n*cell+8, H=labT+n*cell+8;
+  svg.setAttribute('width',W); svg.setAttribute('height',H);
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const fs=Math.min(10,Math.max(7,cell-2));
+
+  idx.forEach((ri,r)=>{
+    const ty=el('text',{x:labW-6,y:labT+r*cell+cell/2+3,'text-anchor':'end',
+      'font-size':fs,fill:tok('--text-secondary')});
+    ty.textContent=D.features[ri]; svg.appendChild(ty);
+    const tx=el('text',{x:0,y:0,'font-size':fs,fill:tok('--text-secondary'),
+      transform:`translate(${labW+r*cell+cell/2+3},${labT-6}) rotate(-90)`});
+    tx.textContent=D.features[ri]; svg.appendChild(tx);
+  });
+
+  idx.forEach((ri,r)=>idx.forEach((ci,c)=>{
+    const v=D.matrix[ri][ci]/100;
+    /* 1px inset acts as the surface gap between fills */
+    const rect=el('rect',{x:labW+c*cell+0.5,y:labT+r*cell+0.5,
+      width:cell-1,height:cell-1,rx:1.5,
+      fill: ri===ci ? tok('--grid') : colr(v)});
+    rect.addEventListener('mousemove',e=>showTip(e,
+      `<b>${D.features[ri]}</b><br><b>${D.features[ci]}</b><br>r = ${v>=0?'+':''}${v.toFixed(2)}`));
+    rect.addEventListener('mouseleave',hideTip);
+    svg.appendChild(rect);
+  }));
+}
+
+/* block filter chips */
+const blocks=[...new Set(D.blocks)].sort();
+$('#blockfilter').innerHTML =
+  `<button id="bf-all" aria-pressed="true">All blocks</button>` +
+  blocks.map(b=>`<button data-b="${b}" aria-pressed="true">${b} (${D.blocks.filter(x=>x===b).length})</button>`).join('');
+$('#blockfilter').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b)return;
+  if(b.id==='bf-all'){active=new Set(D.blocks);
+    $('#blockfilter').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','true'));}
+  else{const k=b.dataset.b;
+    if(active.has(k)&&active.size>1){active.delete(k);b.setAttribute('aria-pressed','false');}
+    else{active.add(k);b.setAttribute('aria-pressed','true');}
+    $('#bf-all').setAttribute('aria-pressed',active.size===new Set(D.blocks).size?'true':'false');}
+  drawHeat();
+});
+
+/* ramp legend — repainted with the charts so it never drifts from the cells */
+function drawRamp(){
+  $('#ramp').style.background=
+    `linear-gradient(90deg,${[-1,-.75,-.5,-.25,0,.25,.5,.75,1].map(v=>colr(v)).join(',')})`;
+}
+
+/* ---- table views (every value reachable without hovering) ---- */
+$('#tv-target').innerHTML='<table><thead><tr><th>Feature</th><th>Block</th>'+
+  '<th class="num">r</th><th class="num">p</th><th class="num">null %</th></tr></thead><tbody>'+
+  D.target.map(d=>`<tr><td>${d.f}</td><td>${d.b}</td><td class="num">${d.r>=0?'+':''}${d.r.toFixed(4)}</td>`+
+    `<td class="num">${d.p.toExponential(2)}</td><td class="num">${d.null}</td></tr>`).join('')+'</tbody></table>';
+
+$('#tv-matrix').innerHTML='<table><thead><tr><th>Feature A</th><th>Feature B</th><th class="num">r</th></tr></thead><tbody>'+
+  D.pairs.map(p=>`<tr><td>${p.a}</td><td>${p.b}</td><td class="num">${p.r>=0?'+':''}${p.r.toFixed(3)}</td></tr>`).join('')+
+  '</tbody></table><p class="note" style="margin-top:10px">Showing pairs at |r| &ge; 0.90. The complete 84&times;84 grid is in <code>reports/correlation_matrix.csv</code>.</p>';
+
+$('#pairs').innerHTML='<thead><tr><th>Feature A</th><th>Feature B</th><th class="num">r</th></tr></thead><tbody>'+
+  D.pairs.map(p=>`<tr><td><span class="swatch" style="background:${colr(p.r)}"></span>${p.a}</td>`+
+    `<td>${p.b}</td><td class="num">${p.r>=0?'+':''}${p.r.toFixed(3)}</td></tr>`).join('')+'</tbody>';
+
+/* toggles */
+const tog=(btn,el2)=>{const on=btn.getAttribute('aria-pressed')==='true';
+  btn.setAttribute('aria-pressed',String(!on)); el2.classList.toggle('on',!on);};
+$('#b-tt').onclick=()=>tog($('#b-tt'),$('#tv-target'));
+$('#b-mt').onclick=()=>tog($('#b-mt'),$('#tv-matrix'));
+$('#b-top').onclick=()=>{barMode='top';$('#b-top').setAttribute('aria-pressed','true');
+  $('#b-all').setAttribute('aria-pressed','false');drawBars();};
+$('#b-all').onclick=()=>{barMode='all';$('#b-all').setAttribute('aria-pressed','true');
+  $('#b-top').setAttribute('aria-pressed','false');drawBars();};
+
+const repaint=()=>{drawBars();drawHeat();drawRamp();};
+repaint();
+/* Colours are read from CSS custom properties at draw time, so the SVG must be
+   redrawn on any theme change — both the OS setting and a host theme toggle
+   stamping data-theme on the root. */
+matchMedia('(prefers-color-scheme:dark)').addEventListener('change',repaint);
+new MutationObserver(repaint).observe(document.documentElement,
+  {attributes:true,attributeFilter:['data-theme']});
+</script>

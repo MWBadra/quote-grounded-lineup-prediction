@@ -1,0 +1,127 @@
+
+####################################################################################
+PLAN
+####################################################################################
+  team-matches total        740
+  retrieval already cached  15
+  retrieval to fetch        725   -> 2,900 credits
+  extraction already cached 13
+  extraction to run         727   -> 727 Gemini calls
+
+  Tavily: 4 key(s), 399,964 calls remaining today
+      TAVILY_API_KEY               99964 / 100000 left
+      TAVILY_API_KEY_2             100000 / 100000 left
+      TAVILY_API_KEY_3             100000 / 100000 left
+      TAVILY_API_KEY_4             100000 / 100000 left
+  Gemini: 8 key(s), 3,987 calls remaining today
+
+  estimated wall-clock      1h 10m   (31m 25s retrieve + 38m 46s extract)
+
+====================================================================================
+RETRIEVAL
+====================================================================================
+  20/725  Wolves GW2  80 credits  3m 45s elapsed  ETA 2h 12m
+  40/725  Wolves GW3  160 credits  7m 31s elapsed  ETA 2h 08m
+  60/725  Wolves GW4  240 credits  11m 09s elapsed  ETA 2h 03m
+  80/725  Wolves GW5  320 credits  14m 46s elapsed  ETA 1h 59m
+  100/725  Arsenal GW7  400 credits  18m 24s elapsed  ETA 1h 55m
+  120/725  Arsenal GW8  480 credits  21m 52s elapsed  ETA 1h 50m
+  140/725  Aston Villa GW9  560 credits  26m 05s elapsed  ETA 1h 49m
+  160/725  Aston Villa GW10  640 credits  29m 20s elapsed  ETA 1h 43m
+  180/725  Aston Villa GW11  720 credits  32m 31s elapsed  ETA 1h 38m
+
+####################################################################################
+PLAN
+####################################################################################
+  team-matches total        740
+  retrieval already cached  205
+  retrieval to fetch        535   -> 2,140 credits
+  extraction already cached 13
+  extraction to run         727   -> 727 Gemini calls
+
+  Tavily: 4 key(s), 1,571 calls remaining today
+      TAVILY_API_KEY                  83 / 500 left
+      TAVILY_API_KEY_2               496 / 500 left
+      TAVILY_API_KEY_3               496 / 500 left
+      TAVILY_API_KEY_4               496 / 500 left
+  Gemini: 8 key(s), 3,987 calls remaining today
+
+  estimated wall-clock      1h 01m   (23m 11s retrieve + 38m 46s extract)
+
+====================================================================================
+RETRIEVAL
+====================================================================================
+  20/535  Man City GW12  80 credits  3m 36s elapsed  ETA 1h 32m
+  40/535  Man City GW13  160 credits  6m 52s elapsed  ETA 1h 25m
+  60/535  Man Utd GW14  240 credits  10m 12s elapsed  ETA 1h 20m
+  80/535  Newcastle GW15  320 credits  13m 31s elapsed  ETA 1h 16m
+  100/535  Nott'm Forest GW16  400 credits  16m 51s elapsed  ETA 1h 13m
+  120/535  Nott'm Forest GW17  480 credits  20m 01s elapsed  ETA 1h 09m
+  140/535  Nott'm Forest GW18  560 credits  23m 29s elapsed  ETA 1h 06m
+  160/535  Spurs GW19  640 credits  26m 31s elapsed  ETA 1h 02m
+  180/535  Spurs GW20  720 credits  29m 35s elapsed  ETA 58m 21s
+  200/535  Sunderland GW21  800 credits  32m 38s elapsed  ETA 54m 41s
+  220/535  Sunderland GW22  880 credits  35m 32s elapsed  ETA 50m 53s
+  240/535  West Ham GW23  960 credits  38m 40s elapsed  ETA 47m 32s
+  260/535  West Ham GW24  1040 credits  41m 41s elapsed  ETA 44m 06s
+  280/535  Wolves GW25  1120 credits  44m 47s elapsed  ETA 40m 47s
+  300/535  West Ham GW26  1200 credits  47m 29s elapsed  ETA 37m 12s
+  320/535  Sunderland GW27  1280 credits  50m 41s elapsed  ETA 34m 03s
+  340/535  West Ham GW28  1360 credits  53m 39s elapsed  ETA 30m 46s
+  360/535  West Ham GW29  1440 credits  56m 10s elapsed  ETA 27m 18s
+  380/535  Wolves GW30  1520 credits  59m 29s elapsed  ETA 24m 15s
+  400/535  Brentford GW32  1600 credits  1h 02m elapsed  ETA 21m 10s
+  420/535  Brentford GW33  1680 credits  1h 06m elapsed  ETA 18m 15s
+  440/535  West Ham GW33  1760 credits  1h 10m elapsed  ETA 15m 16s
+  460/535  Burnley GW35  1840 credits  1h 15m elapsed  ETA 12m 14s
+  480/535  Burnley GW36  1920 credits  1h 18m elapsed  ETA 9m 01s
+  500/535  Brighton GW37  2000 credits  1h 22m elapsed  ETA 5m 44s
+  520/535  Brighton GW38  2080 credits  1h 24m elapsed  ETA 2m 26s
+  535/535  Wolves GW38  2140 credits  1h 26m elapsed  ETA 0m 00s
+
+====================================================================================
+EXTRACTION
+====================================================================================
+  25/727  Brighton GW3  0m 42s elapsed  ETA 19m 43s
+  50/727  Fulham GW4  1m 06s elapsed  ETA 15m 01s
+  75/727  Newcastle GW5  1m 33s elapsed  ETA 13m 29s
+  100/727  Wolves GW6  1m 59s elapsed  ETA 12m 31s
+  125/727  Brighton GW8  2m 19s elapsed  ETA 11m 09s
+  150/727  Leeds GW9  2m 40s elapsed  ETA 10m 16s
+  175/727  Nott'm Forest GW10  3m 13s elapsed  ETA 10m 10s
+  200/727  Aston Villa GW12  3m 51s elapsed  ETA 10m 10s
+  225/727  Chelsea GW13  4m 35s elapsed  ETA 10m 15s
+  250/727  Man City GW14  6m 10s elapsed  ETA 11m 46s
+  275/727  West Ham GW15  6m 53s elapsed  ETA 11m 19s
+  300/727  Brighton GW17  7m 29s elapsed  ETA 10m 40s
+  325/727  Fulham GW18  8m 03s elapsed  ETA 9m 58s
+  350/727  Newcastle GW19  8m 29s elapsed  ETA 9m 09s
+  375/727  Wolves GW20  9m 49s elapsed  ETA 9m 13s
+  400/727  Burnley GW22  11m 08s elapsed  ETA 9m 06s
+  425/727  Liverpool GW23  11m 58s elapsed  ETA 8m 30s
+  450/727  Spurs GW24  12m 34s elapsed  ETA 7m 44s
+  475/727  Aston Villa GW26  13m 59s elapsed  ETA 7m 25s
+  500/727  Burnley GW27  15m 53s elapsed  ETA 7m 12s
+  525/727  Liverpool GW28  19m 05s elapsed  ETA 7m 20s
+  550/727  Spurs GW29  21m 40s elapsed  ETA 6m 58s
+  575/727  Brentford GW31  22m 37s elapsed  ETA 5m 58s
+  600/727  Man City GW32  25m 22s elapsed  ETA 5m 22s
+  625/727  Man City GW33  26m 45s elapsed  ETA 4m 21s
+  650/727  Brentford GW35  27m 25s elapsed  ETA 3m 14s
+  675/727  Crystal Palace GW36  28m 10s elapsed  ETA 2m 10s
+  700/727  Man City GW37  30m 31s elapsed  ETA 1m 10s
+  725/727  Sunderland GW38  32m 05s elapsed  ETA 0m 05s
+  727/727  Wolves GW38  32m 09s elapsed  ETA 0m 00s
+
+====================================================================================
+ASSEMBLING SIGNALS
+====================================================================================
+  13,660 rows | 1,504 verified signals (11.0%) | 310 matches
+  saved -> D:\books and slides\ya rb paper\scouting-context-dashboard\version 2\dataset\llm_signals_2025_2026.csv
+
+====================================================================================
+RESULT
+====================================================================================
+  retrieved this run 535 | extracted this run 727 | credits spent 2140
+  wall-clock 1h 59m
+  completed without hitting a limit

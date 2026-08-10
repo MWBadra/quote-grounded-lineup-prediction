@@ -1,0 +1,42 @@
+# Credentials. Never commit these.
+.env
+.env.*
+*.key
+
+# Retrieval and extraction caches. These hold the full text of third-party
+# articles, which is not ours to redistribute, plus a local mirror of the
+# upstream FPL-Core-Insights CSVs. Both rebuild from the scripts.
+.cache/
+.newscache/
+.newscache_v2/
+.newscache_v3/
+.extractcache/
+.ablate_memory/
+.ablate_shuffled/
+.quota/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# but keep the run logs, they're the record of what the paper's numbers came from
+!leakage.log
+!run_full.log
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

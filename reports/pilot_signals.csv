@@ -1,0 +1,426 @@
+﻿player_name,team_code,gameweek,match_id,llm_team_rotation,llm_player_rotation,llm_manager_sentiment,llm_strength,llm_source_type,llm_quote,llm_status,is_starter,team_name
+Mamardashvili,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Pécsi,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Woodman,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Frimpong,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Kerkez,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Robertson,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Virgil,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Konaté,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Bradley,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Gomez,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Nallo,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+R.Williams,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Ramsay,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+M.Salah,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Wirtz,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Gakpo,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Chiesa,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Mac Allister,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Szoboszlai,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+C.Jones,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Gravenberch,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,1,Liverpool
+Endo,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Nyoni,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Danns,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Isak,14,8,25-26-prem-liverpool-vs-manchester-united,,0.2,0.5,implied,manager_quote,Fitness-wise he is close to the level he should be and we can judge him in a fair way from now on.,ok,1,Liverpool
+Ekitiké,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Ngumoha,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Morrison,14,8,25-26-prem-liverpool-vs-manchester-united,,,,none,,,ok,0,Liverpool
+Trafford,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Aït-Nouri,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Gvardiol,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Aké,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Khusanov,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Matheus N.,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Rúben,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Stones,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Lewis,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+O’Reilly,43,16,25-26-prem-crystal-palace-vs-manchester-city,,0.2,1.0,implied,journalist_prediction,"He can feel confident of keeping his place in Guardiola's starting line-up to face Crystal Palace, live on Sky Sports on Sunday.",ok,1,Man City
+Marmoush,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Foden,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Savinho,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Bernardo,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Cherki,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Doku,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Reijnders,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Phillips,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Haaland,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Donnarumma,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Mukasa,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Mfuni,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+McAidoo,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+N.Gonzalez,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,1,Man City
+Bettinelli,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Bobb,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Ortega Moreno,43,16,25-26-prem-crystal-palace-vs-manchester-city,,,,none,,,ok,0,Man City
+Lewis-Skelly,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+J.Timber,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Clarke,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,0,Arsenal
+Nichols,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,0,Arsenal
+Saka,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Ødegaard,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Madueke,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Trossard,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Rice,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Merino,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Nørgaard,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Zubimendi,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+White,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,0,Arsenal
+Martinelli,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Havertz,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,Doubtful Havertz (knee),ok,0,Arsenal
+G.Jesus,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,1,Arsenal
+Eze,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Mosquera,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Gyökeres,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,0,Arsenal
+Harriman-Annous,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Hincapie,3,23,25-26-prem-arsenal-vs-manchester-united,,1.0,,implied,journalist_prediction,"Injured Calafiori (hip, 31 Jan), Hincapié (groin, 31 Jan)",ok,1,Arsenal
+Salmon,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,0,Arsenal
+Raya,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Arrizabalaga,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Setford,3,23,25-26-prem-arsenal-vs-manchester-united,,0.8,,implied,journalist_prediction,"Subs from Arrizabalaga, Setford, Lewis-Skelly, Mosquera, Nørgaard, Merino, Nwaneri, Martinelli, Eze, Madueke, Harriman-Annous, Jesus, Havertz",ok,0,Arsenal
+Gabriel,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Saliba,3,23,25-26-prem-arsenal-vs-manchester-united,,,,none,,,ok,1,Arsenal
+Calafiori,3,23,25-26-prem-arsenal-vs-manchester-united,,1.0,,implied,journalist_prediction,"Injured Calafiori (hip, 31 Jan)",ok,0,Arsenal
+Sharman-Lowe,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Merrick,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Enzo,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,0.2,,implied,journalist_prediction,"Reece James, Cole Palmer, Enzo Fernandez and Moises Caicedo will all be fresh for Wednesday’s Champions League last-16 first-leg showdown",ok,1,Chelsea
+Emenalo,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Garnacho,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+Hato,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+B.Badiashile,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Fofana,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+Gittens,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,0.2,,implied,manager_quote,"Levi [Colwill] is back in modified training, Jamie Gittens is back.",ok,0,Chelsea
+Palmer,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,0.2,,implied,journalist_prediction,"Reece James, Cole Palmer, Enzo Fernandez and Moises Caicedo will all be fresh for Wednesday’s Champions League last-16 first-leg showdown",ok,1,Chelsea
+Caicedo,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,0.2,,implied,journalist_prediction,"Reece James, Cole Palmer, Enzo Fernandez and Moises Caicedo will all be fresh for Wednesday’s Champions League last-16 first-leg showdown",ok,1,Chelsea
+Lavia,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Andrey Santos,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+D.Essugo,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+João Pedro,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+Chalobah,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+Gusto,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+M.Sarr,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Tosin,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Acheampong,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Sánchez,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+Jörgensen,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Slonina,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Cucurella,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,1,Chelsea
+James,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,0.2,,implied,journalist_prediction,"Reece James, Cole Palmer, Enzo Fernandez and Moises Caicedo will all be fresh for Wednesday’s Champions League last-16 first-leg showdown",ok,1,Chelsea
+Delap,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Marc Guiu,8,30,25-26-prem-chelsea-vs-newcastle-united,0.6,,,none,,,ok,0,Chelsea
+Ruddy,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Joelinton,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Tonali,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+J.Ramsey,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Wissa,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,0.8,,implied,journalist_prediction,"That would mean the attacking talent of Anthony Gordon, Harvey Barnes, Anthony Elanga, Nick Woltemade and Yoane Wissa all starting on the bench again.",ok,0,Newcastle
+Pope,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Gillespie,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Hall,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Trippier,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,0.2,,implied,journalist_prediction,Those absences should see Kieran Trippier come in at right-back.,ok,0,Newcastle
+A.Murphy,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Gordon,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,0.8,,implied,journalist_prediction,"That would mean the attacking talent of Anthony Gordon, Harvey Barnes, Anthony Elanga, Nick Woltemade and Yoane Wissa all starting on the bench again.",ok,0,Newcastle
+Elanga,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,0.8,,implied,journalist_prediction,"That would mean the attacking talent of Anthony Gordon, Harvey Barnes, Anthony Elanga, Nick Woltemade and Yoane Wissa all starting on the bench again.",ok,0,Newcastle
+Barnes,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,0.8,,implied,journalist_prediction,"That would mean the attacking talent of Anthony Gordon, Harvey Barnes, Anthony Elanga, Nick Woltemade and Yoane Wissa all starting on the bench again.",ok,0,Newcastle
+Osula,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Ramsdale,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Thiaw,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Seung soo,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Woltemade,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,0.8,,implied,journalist_prediction,"That would mean the attacking talent of Anthony Gordon, Harvey Barnes, Anthony Elanga, Nick Woltemade and Yoane Wissa all starting on the bench again.",ok,1,Newcastle
+Shahar,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Alabi,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Willock,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Bruno G.,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+J.Murphy,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Botman,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Burn,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,1,Newcastle
+Pivas,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Neave,4,36,25-26-prem-nottingham-forest-vs-newcastle-united,,,,none,,,ok,0,Newcastle
+Morgan,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Nelson,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+O.Dango,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Kelleher,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Balcombe,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Cox,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Eyestone,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Valdimarsson,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Collins,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Lewis-Potter,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Ajer,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Henry,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Kayode,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Pinnock,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Van den Berg,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Arthur,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Fredrick,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Hickey,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Ji-soo,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Schade,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Damsgaard,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Milambo,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Carvalho,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Henderson,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Janelt,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Jensen,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Nunes,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Onyeka,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Yarmoliuk,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Donovan,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Konak,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Maghoma,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Peart-Harris,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Thiago,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,1,Brentford
+Dasilva,94,6,25-26-prem-brentford-vs-manchester-united,,,,none,,,empty_corpus,0,Brentford
+Mbeumo,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Bayindir,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Heaton,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Mee,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+De Ligt,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Mazraoui,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+D.Leon,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Dalot,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Dorgu,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Maguire,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Shaw,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Yoro,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Fredricson,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Heaven,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Malacia,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+B.Fernandes,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Cunha,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Amad,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Mount,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Casemiro,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Mainoo,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Ugarte,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Fitzgerald,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+J.Fletcher,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Kone,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Zirkzee,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Obi,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Šeško,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,0,Man Utd
+Lammens,1,11,25-26-prem-tottenham-hotspur-vs-manchester-united,,,,none,,,ok,1,Man Utd
+Gonzalez,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Tchatchoua,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Krejčí,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Tolu,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Pond,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Chirewa,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Edozie,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Fraser,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Johnstone,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+José Sá,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Agbadou,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Fer López,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Hee Chan,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Gomes,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+J.Arias,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Møller Wolfe,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+S.Bueno,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Toti,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Hoever,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Mané,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+André,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Bellegarde,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Munetsi,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Strand Larsen,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Doherty,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+H.Bueno,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,0,Wolves
+Mosquera,39,13,25-26-prem-aston-villa-vs-wolverhampton-wanderers,,,,none,,,ok,1,Wolves
+Byfield,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Vicario,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Austin,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Kinsky,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Pedro Porro,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Romero,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Danso,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Davies,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Dragusin,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Spence,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Udogie,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Van de Ven,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Takai,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Johnson,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Kudus,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Tel,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Bentancur,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Bergvall,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Odobert,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Gray,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+P.M.Sarr,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Olusesi,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Richarlison,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Scarlett,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+J.Palhinha,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Xavi,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Kolo Muani,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,1,Spurs
+Rowswell,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Akhamrich,6,14,25-26-prem-newcastle-united-vs-tottenham-hotspur,,,,none,,,ok,0,Spurs
+Rogers,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Onana,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Broggio,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Konsa,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Maatsen,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Mings,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Pau,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+A.García,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Bogarde,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Lindelöf,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Sousa,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Tielemans,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+George Hemmings,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Hollingshead,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Leon Routh,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Patterson,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Martinez,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+M.Bizot,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Buendía,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Malen,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+McGinn,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Jimoh-Aloba,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Young,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Watkins,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Elliott,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Burrowes,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Proctor,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Sancho,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Wright,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,0,Aston Villa
+Digne,7,19,25-26-prem-arsenal-vs-aston-villa,,,,none,,,empty_corpus,1,Aston Villa
+Oriola,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Steele,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Verbruggen,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+McGill,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Boscagli,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+F.Kadıoğlu,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Van Hecke,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Veltman,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Mitoma,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Georginio,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+March,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Minteh,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Gruda,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Hinshelwood,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Ayari,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Gomez,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Milner,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Watson,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Knight,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Welbeck,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Kostoulas,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Simmonds,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Groß,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Tasker,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+Coppola,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,0,Brighton
+De Cuyper,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Dunk,36,21,25-26-prem-manchester-city-vs-brighton-hove-albion,,,,none,,,ok,1,Brighton
+Aznou,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Beto,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Dewsbury-Hall,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Tarkowski,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Mykolenko,11,25,25-26-prem-fulham-vs-everton,,0.2,,implied,journalist_prediction,"David Moyes fielded four centre-backs last week, but has left-back Vitalii Mykolenko at his disposal again this weekend.",ok,1,Everton
+O'Brien,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Coleman,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Gana,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Garner,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Campbell,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Iroegbunam,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Pickford,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Travers,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Branthwaite,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Keane,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Patterson,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Dixon,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Welch,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Ndiaye,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+McNeil,11,25,25-26-prem-fulham-vs-everton,,0.8,-0.5,implied,journalist_prediction,Moyes must work out how to reintegrate Dwight McNeil after a failed deadline day move to Crystal Palace.,ok,0,Everton
+Alcaraz,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Armstrong,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Bates,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Ebere,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Barry,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,1,Everton
+Sherif,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+King,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Dibling,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Röhl,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Graham,11,25,25-26-prem-fulham-vs-everton,,,,none,,,ok,0,Everton
+Diouf,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Kilman,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Mavropanos,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Scarles,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Wan-Bissaka,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Souček,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Summerville,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Bowen,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Hermansen,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+M.Fernandes,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Disasi,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Todibo,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,0.2,,implied,journalist_prediction,Jean-Clair Todibo is available after suspension,ok,0,West Ham
+Walker-Peters,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Wilson,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,0.2,,implied,journalist_prediction,Callum Wilson is another option in attack.,ok,0,West Ham
+Golambeckis,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+S.Magassa,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Fabianski,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,0.8,,implied,journalist_prediction,Doubtful Fabianski (back),ok,0,West Ham
+Mayers,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Mohamadou Kanté,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Taty,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,1,West Ham
+Lamadrid,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Adama,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Areola,21,27,25-26-prem-west-ham-united-vs-afc-bournemouth,,,,none,,,ok,0,West Ham
+Mitchell,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Lerma,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Benamar,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Chadi Riad,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Yeremy,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Canvot,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Cardines,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Kamada,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Uche,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Drakes-Thomas,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Rodney,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Strand Larsen,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Guessand,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Henderson,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Benitez,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Mateta,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Agbinone,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Sosa,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Richards,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Clyne,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Kporha,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Sarr,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Doucouré,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Hughes,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Casey,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Wharton,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Devenny,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Marsh,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Johnson,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Matthews,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Muñoz,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+Lacroix,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,1,Crystal Palace
+King,31,32,25-26-prem-crystal-palace-vs-newcastle-united,,,,none,,,ok,0,Crystal Palace
+Robinson,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Diop,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+J.Cuenca,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Iwobi,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Sessegnon,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Wilson,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Berge,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Cairney,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Lukić,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+King,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Reed,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Raúl,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Muniz,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Bobb,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Kusi-Asare,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Amissah,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+McNally,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Andersen,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Bassey,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Castagne,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Smith Rowe,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Leno,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Lecomte,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
+Chukwueze,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,1,Fulham
+Ridgeon,54,34,25-26-prem-fulham-vs-aston-villa,,,,none,,,ok,0,Fulham
