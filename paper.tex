@@ -8,6 +8,9 @@
 \usepackage{xcolor}
 \usepackage{booktabs}
 \usepackage{stfloats}
+% hyperref last, after cite, so it can patch the citation commands rather than
+% be patched over. hidelinks keeps the coloured frames out of the print copy.
+\usepackage[hidelinks,breaklinks]{hyperref}
 \graphicspath{{figures/}{./}}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -19,17 +22,11 @@
 \IEEEauthorblockA{\textit{Computer Engineering, CAIE Programme} \\
 \textit{Ain Shams University, University of East London}\\
 Cairo, Egypt \\
-mohamedwbadra@gmail.com}
+\href{mailto:mohamedwbadra@gmail.com}{mohamedwbadra@gmail.com} \\
+Code: \href{https://github.com/MWBadra/quote-grounded-lineup-prediction}{\texttt{github.com/MWBadra/quote-grounded-lineup-prediction}}}
 }
 
 \maketitle
-
-\begin{center}
-\vspace{-4mm}
-\footnotesize
-Code and extracted signals: \texttt{https://github.com/MWBadra/quote-grounded-lineup-prediction}
-\vspace{2mm}
-\end{center}
 
 \begin{abstract}
 Predicting a football manager's starting eleven before kick-off is difficult because the decisive information --- injuries, rest and internal competition --- appears in natural language rather than in structured databases. This paper fuses tabular match data with contextual signals extracted from pre-match reporting by a large language model (LLM), evaluated on the complete 2025--2026 English Premier League season: 740 team-matches and 20{,}287 player-match observations with confirmed team sheets as labels. The pipeline identifies nine or more of the eleven starters in $70.3\%$ of validation squads, against $56.4\%$ for the strongest no-model recency rule passed through the identical assignment stage, and attains $80.89\%$ constrained lineup accuracy. Two design decisions distinguish the study: the candidate pool is the club's \emph{available} squad, a mean of 27.4 players reconstructed from per-gameweek availability snapshots rather than the announced matchday squad of roughly twenty; and every extracted signal must cite a verbatim span verified against the retrieved text in code, so that a signal recalled rather than read is discarded. The pooled contribution of the contextual block is small, $+0.0008$ in accuracy and a significant $+0.0040$ in ROC-AUC, and we argue this is the expected result rather than a disappointing one: selection is governed by ability and recent participation, which the tabular block already encodes, leaving language only the residual of decisions driven by injury, rest and managerial intent. The effect is therefore properly read at squad level, where the contextual block is worth $+2.5$ points at nine-of-eleven, and on the $7.23\%$ of rows the signal actually reaches, where it lifts ROC-AUC by $+0.0363$ ($95\%$ CI $[+0.019, +0.053]$), nine times the pooled gain. A three-arm ablation then measures rather than assumes contamination. Prompted with no sources the same model reaches ROC-AUC $0.654$ on $68.4\%$ of player-matches; but on the cases where both conditions speak, the unsourced signal falls to $0.513$, indistinguishable from chance, against $0.713$ for the quote-grounded one, agreeing only $34.1\%$ of the time. We further report three negative results, on formation forecasting, positional partitioning and richer encodings of the LLM output.
