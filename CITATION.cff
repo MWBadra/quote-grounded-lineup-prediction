@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Quote-Grounded Language Model Context for Football Starting Lineup Prediction
+message: If you use this software or dataset, please cite it as below.
+authors:
+  - family-names: Badra
+    given-names: Mohamed
+type: software
+repository-code: 'https://github.com/MWBadra/quote-grounded-lineup-prediction'
+license: MIT
