@@ -5,5 +5,20 @@ authors:
   - family-names: Badra
     given-names: Mohamed
 type: software
+version: 1.0.0
+doi: 10.5281/zenodo.21903339
+date-released: '2026-08-12'
 repository-code: 'https://github.com/MWBadra/quote-grounded-lineup-prediction'
+url: 'https://mwbadra.github.io/posts/lineup-prediction-contamination.html'
 license: MIT
+keywords:
+  - lineup prediction
+  - data contamination
+  - large language models
+  - retrieval grounding
+  - sports analytics
+abstract: >-
+  Pipeline, dataset and extraction record for predicting Premier League starting
+  lineups from tabular match data combined with quote-grounded contextual signals
+  extracted from pre-match reporting, with a three-arm ablation measuring LLM
+  data contamination.
