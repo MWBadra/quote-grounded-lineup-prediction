@@ -14,6 +14,7 @@ rather than read gets thrown away.
 Evaluated on the whole 2025-26 season: 370 fixtures, 740 team-matches, 20,287
 player-match rows, with confirmed team sheets as labels.
 
+📖 [Long-form walkthrough](https://mwbadra.github.io/posts/lineup-prediction-contamination.html) · 📄 Paper (`paper.tex`) 
 ## Headline numbers
 
 | | |
